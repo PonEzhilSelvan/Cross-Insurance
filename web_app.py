@@ -39,7 +39,7 @@ inputs = {
 # on click
 if st.button("Predict"):
     # load the pickle model 
-    model = joblib.load('RandomForest1.pkl')
+    model = joblib.load('RandomForest.pkl')
 
     X_input = pd.DataFrame(inputs,index=[0])
     # predict the target using the loaded model
